@@ -1,5 +1,5 @@
 Write the Java code as instructed.
-• Class Faculty has the following members.
+- Class Faculty has the following members.
 
 - String name, double salary as private instance variables
 - Constructor to initialize the instance variables
