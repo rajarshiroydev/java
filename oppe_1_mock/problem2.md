@@ -18,22 +18,22 @@ Write the Java code as instructed.
 - It creates objects of Faculty and Hod types, and also accepts the required input values.
 - Invokes methods getDetails () and getDetails (float percent) on Faculty and Hod objects.
 
-Input
-Srihari 50000
+Input\
+Srihari 50000\
 Vishnu 80000 laxmi
 
-Output
-Srihari, 50000.0
-Srihari, 50000.0, bonus = 5000.0
-Vishnu, 80000.0, laxmi
+Output\
+Srihari, 50000.0\
+Srihari, 50000.0, bonus = 5000.0\
+Vishnu, 80000.0, laxmi\
 Vishnu, 80000.0, laxmi, 4000.0
 
-Input
-Mohan 45000
+Input\
+Mohan 45000\
 Manoj 78000 dhanush
 
-Output
-Mohan, 45000.0
-Mohan, 45000.0, bonus = 4500.0
-Manoj, 78000.0, dhanush
+Output\
+Mohan, 45000.0\
+Mohan, 45000.0, bonus = 4500.0\
+Manoj, 78000.0, dhanush\
 Manoj, 78000.0, dhanush, 3900.0

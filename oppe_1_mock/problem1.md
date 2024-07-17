@@ -11,16 +11,16 @@ Complete the program as specified below.
 - name of e2 and second item bought by c2 are updated by taking the input.
 - name of e1, e2 and first project done by e1 and e2 are printed.
 
-Input
+Input\
 Sneha PJ5
 
-Output
-Surya: PJ1
+Output\
+Surya: PJ1\
 Sneha: PJ5
 
-Input
+Input\
 Rohan PJ7
 
-Output
-Surya: PJ1
+Output\
+Surya: PJ1\
 Rohan: PJ7
