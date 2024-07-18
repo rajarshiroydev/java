@@ -22,7 +22,7 @@ class Employee {
         // created a new array and then inserted the array values from e.
         this.projects = new String[e.projects.length]; // length() is for strings not arrays.
         for (int i = 0; i < projects.length; i++) {
-            this.projects[i] = e.projects[i];
+            this.projects[i] = e.projects[i]; // deep copy
         }
     }
 
@@ -46,7 +46,7 @@ class Employee {
 
 }
 
-public class Test {
+public class Problem1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String[] proj = { "PJ1", "PJ2", "PJ3" };

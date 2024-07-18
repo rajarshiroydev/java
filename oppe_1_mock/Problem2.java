@@ -18,7 +18,7 @@ class Faculty {
         return name + ", " + salary;
     }
 
-    // Override method getDetails(float percent)
+    // Overload method getDetails(float percent)
     public String getDetails(float percent) {
         double bonus = bonus(percent);
         return name + ", " + salary + ", bonus = " + bonus;
@@ -35,12 +35,16 @@ class Hod extends Faculty {
     }
 
     // Override method bonus(float percent)
+    // here we are not overloading the function and rather just overriding the
+    // bonus() function in the Faculty class.
     public double bonus(float percent) {
         return super.bonus(percent) / 2;
 
     }
 
     // Override method getDetails()
+    // here we are not overloading the function and rather just overriding the
+    // getDetails() function in the Faculty class.
     public String getDetails() {
         return super.getDetails() + ", " + personalAssistant;
 
@@ -48,13 +52,13 @@ class Hod extends Faculty {
 
     // Override method getDetails(float percent)
     public String getDetails(float percent) {
-        double bonus = bonus(percent);
+        double bonus = bonus(percent); // calling the bonus method in HOD class itself so super is not needed
         return super.getDetails() + ", " + personalAssistant + ", " + bonus;
 
     }
 }
 
-public class InheritanceTest {
+public class Problem2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Faculty obj1 = new Faculty(sc.next(), sc.nextDouble());
