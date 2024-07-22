@@ -1,8 +1,8 @@
-package ppa.w1;
+
 
 import java.util.*;
 
-public class Ppa2 {
+public class Ppa1_2 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

@@ -58,7 +58,7 @@ class Hod extends Faculty {
     }
 }
 
-public class Problem2 {
+public class Mock1_2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Faculty obj1 = new Faculty(sc.next(), sc.nextDouble());

@@ -1,8 +1,7 @@
-package grpa.w1;
 
 import java.util.*;
 
-public class Grpa1 {
+public class Grpa1_1 {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     int n = sc.nextInt();

@@ -1,4 +1,4 @@
-package grpa.w1;
+
 
 import java.util.Scanner;
 
@@ -31,7 +31,7 @@ class Employee {
 
 }
 
-public class Grpa2 {
+public class Grpa1_2 {
 	public static void main(String args[]) {
 		Scanner s = new Scanner(System.in);
 		Employee e1 = new Employee();

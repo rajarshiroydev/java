@@ -1,4 +1,4 @@
-package ppa.w1;
+
 
 import java.util.*;
 
@@ -22,7 +22,7 @@ class Rectangle {
     }
 }
 
-public class Ppa1 {
+public class Ppa1_1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int w = Integer.parseInt(sc.nextLine());
